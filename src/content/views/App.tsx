@@ -63,16 +63,6 @@ function App() {
     <div className="popup-container">
       {show && (
         <div className={`popup-content ${show ? 'opacity-100' : 'opacity-0'}`}>
-          {/* <a href={urls[0]} target='_blank'>Open in new tab</a> */}
-          {/* <button onClick={() => { */}
-          {/*   console.log("[brewinski]: triggered file download", "url", urls[0]) */}
-          {/*   chrome.runtime.sendMessage({ */}
-          {/*     type: "DOWNLOAD_VIDEO", */}
-          {/*     url: urls[0], */}
-          {/*   }) */}
-          {/**/}
-          {/* }}>Download Video</button> */}
-
           <a
             href="#"
             onClick={() => {
