@@ -1,6 +1,6 @@
 # Pop-Loader
 
-the chrome extension custom built for my grandad due to a bug present in software he's using at work. If you're not sure if you needs this extension, let me save you some time. You don't.
+the chrome extension custom built for my grandad due to a bug in software he's using at work. If you're not sure if you needs this extension, let me save you some time... You don't.
 
 ## Quick Start
 
