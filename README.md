@@ -1,27 +1,19 @@
-# React + Vite + CRXJS
+# Pop-Loader
 
-This template helps you quickly start developing Chrome extensions with React, TypeScript and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
-
-## Features
-
-- React with TypeScript
-- TypeScript support
-- Vite build tool
-- CRXJS Vite plugin integration
-- Chrome extension manifest configuration
+the chrome extension custom built for my grandad due to a bug present in software he's using at work. If you're not sure if you needs this extension, let me save you some time. You don't.
 
 ## Quick Start
 
 1. Install dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 2. Start development server:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 3. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
@@ -29,20 +21,15 @@ npm run dev
 4. Build for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 ## Project Structure
 
 - `src/popup/` - Extension popup UI
 - `src/content/` - Content scripts
+- `src/background/` - Background worker code.
 - `manifest.config.ts` - Chrome extension manifest configuration
-
-## Documentation
-
-- [React Documentation](https://reactjs.org/)
-- [Vite Documentation](https://vitejs.dev/)
-- [CRXJS Documentation](https://crxjs.dev/vite-plugin)
 
 ## Chrome Extension Development Notes
 
@@ -50,3 +37,4 @@ npm run build
 - The CRXJS plugin automatically handles manifest generation
 - Content scripts should be placed in `src/content/`
 - Popup UI should be placed in `src/popup/`
+- Background worker code should be placed in `src/background`
